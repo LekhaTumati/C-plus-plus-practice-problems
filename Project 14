@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+int sum_form_to(int a, int b)
+{
+    int i = a;
+    while(i <= b)
+    {
+        cout <<"The number is " << i << endl;
+        i++;
+        int sum = sum + i;
+        cout << sum << endl;
+    }
+}
+int main()
+{
+    sum_form_to(4, 7);
+}
