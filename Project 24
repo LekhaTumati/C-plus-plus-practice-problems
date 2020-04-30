@@ -1,0 +1,30 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    int a, b, c, d;
+    cout << "Enter four values\n";
+    cin >> a >> b >> c >> d;
+
+    if(a == b || a == c || a == d)
+    {
+        cout << a << " has a same number in the array\n";
+    }
+
+    else if(b == a || b == c || b == d)
+    {
+        cout << b << " has a same number in the array\n";
+    }
+
+    else if(c == b || c == a || c == d)
+    {
+        cout << c << " has a same number in the array\n";
+    }
+
+    else if(d == b || d == c || d == a)
+    {
+        cout << d << " has a same number in the array\n";
+    }
+}
