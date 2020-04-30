@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+        cout << "Enter a non - negative number\n";
+        cin >> n;
+
+
+    while(n < 0);
+    {
+        cout << "The integer is negative\n";
+        cout << "Enter a non negative number\n";
+        cin >> n;
+    }
+
+}
