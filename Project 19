@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int numerator, denomenator;
+    cout << "Enter the numerator and denomenator\n";
+    cin >> numerator >> denomenator;
+
+    cout << numerator << "/" << denomenator << endl;
+    for (int i = 0; i <= 100; i++)
+    {
+        if(numerator / i == 0 && denomenator /i == 0)
+        {
+            numerator / i;
+            denomenator / i;
+            cout << numerator << "/" << denomenator << endl;
+        }
+        else{cout << "Fraction error\n";}
+    }
+}
