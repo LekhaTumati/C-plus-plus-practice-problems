@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+void reverse(int a, int b, int c, int d)
+{
+    cout << d << " " << c << " " << b << " " << a << endl;
+}
+
+int main()
+{
+    reverse(2, 3, 4, 5);
+}
