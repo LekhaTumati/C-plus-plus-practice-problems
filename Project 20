@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+float sort3(float a, float b, float c)
+{
+    cout << a <<"    " << b <<"    " << c << endl;
+}
+int main()
+{
+    sort3(2.67, 8.90, 45.5);
+}
