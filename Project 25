@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+void rotate_right(float a, float b, float c)
+{
+    float MyArray[3] = {a, b, c};
+    MyArray[0] = c;
+    MyArray[1] = a;
+    MyArray[2] = b;
+}
+
+int main()
+{
+    rotate_right(1, 2, 3);
+}
